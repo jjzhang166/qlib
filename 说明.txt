@@ -1,0 +1,14 @@
+qlib 1.0
+适用于MFC程序，多字节
+作者：quhuabo@gmail.com
+
+------------------------------------------------------------
+CMyLog 使用说明 
+
+在应用程序之前声明一个全局变量（一个进程只需声明一次）： 
+CMyLog _log;
+
+在其他任何地方，调用 LOG_INFO 等函数： LOG_INFO(fmt, ...);
+
+
+推荐用法：debug_static, release_static
